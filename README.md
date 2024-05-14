@@ -7,7 +7,7 @@ To build the respective Docker images [proksch/istio-example-lib](https://hub.do
 ```
 $ cd lib
 $ docker build \
-    -t docker.io/proksch/istio-example-lib:0.0.1 \
+    -t docker.io/proksch/istio-example-lib:0.0.2 \
     -t docker.io/proksch/istio-example-lib:latest \
     .
 ```
@@ -17,7 +17,7 @@ And the same for the app.
 ```
 $ cd ../app
 $ docker build \
-	-t docker.io/proksch/istio-example-app:0.0.1 \
+	-t docker.io/proksch/istio-example-app:0.0.2 \
 	-t docker.io/proksch/istio-example-app:latest \
 	.
 ```
