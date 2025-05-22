@@ -1,7 +1,7 @@
 from flask import Flask, Response
 app = Flask(__name__)
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 count = 0
 
 @app.route('/', methods=['GET'])

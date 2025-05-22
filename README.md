@@ -8,7 +8,7 @@ To build the respective Docker images [proksch/istio-example-lib](https://hub.do
 $ cd lib
 docker buildx build \
 	--platform linux/amd64,linux/arm64 \
-    -t docker.io/proksch/istio-example-lib:0.0.1 \
+    -t docker.io/proksch/istio-example-lib:0.0.2 \
     -t docker.io/proksch/istio-example-lib:latest \
     .
 $ docker push --all-tags docker.io/proksch/istio-example-lib
@@ -20,7 +20,7 @@ And the same for the app.
 $ cd app
 docker buildx build \
 	--platform linux/amd64,linux/arm64 \
-	-t docker.io/proksch/istio-example-app:0.0.1 \
+	-t docker.io/proksch/istio-example-app:0.0.2 \
 	-t docker.io/proksch/istio-example-app:latest \
 	.
 $ docker push --all-tags docker.io/proksch/istio-example-app
