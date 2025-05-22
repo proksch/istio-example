@@ -1,9 +1,9 @@
 services:
   app:
-    image: proksch/istio-example-app:0.0.2
+    image: proksch/istio-example-app:0.0.1
     ports:
       - 8080:8080
     environment:
      - LIB_URL=http://lib:8080
   lib:
-    image: proksch/istio-example-lib:0.0.2
+    image: proksch/istio-example-lib:0.0.1
